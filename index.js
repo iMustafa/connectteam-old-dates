@@ -77,7 +77,7 @@ const submitShift = async (date) => {
                 }
             }
         );
-        console.log(req)
+        return req.data;
     } catch (error) {
         console.log(error.toJSON())
     }

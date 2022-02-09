@@ -1,7 +1,7 @@
 const axios = require('axios');
 const moment = require('moment');
 
-const cookie = "cta_clientId=8cf303e6-0950-47e6-b120-e9585e52a964; _ga=GA1.2.234275099.1631730088; hubspotutk=eada51d24cd349791646c57a02755a9d; cta_sessionId=13e12e17-c06e-4d2e-af76-b9c432fe939f; cta_referrer=https://www.google.com/; _gid=GA1.2.893984698.1644429530; _gcl_au=1.1.1034085831.1644429530; _hjSessionUser_1911498=eyJpZCI6ImQ1N2IzNzkwLTY2OGUtNTYwYi05Njg5LTZhZjhiNGJlZWRlOCIsImNyZWF0ZWQiOjE2NDQ0Mjk1MzA4ODAsImV4aXN0aW5nIjpmYWxzZX0=; _hjFirstSeen=1; _hjSession_1911498=eyJpZCI6ImIzOWRiNzAwLTA4YzQtNDgyYy04YTlhLTU3ZjI2NmI0YWI2MCIsImNyZWF0ZWQiOjE2NDQ0Mjk1MzA5OTAsImluU2FtcGxlIjpmYWxzZX0=; _hjAbsoluteSessionInProgress=0; outbrain_cid_fetch=true; __hstc=191357685.eada51d24cd349791646c57a02755a9d.1631730097271.1631730097271.1644429542808.2; __hssrc=1; intercom-id-pkucd0o6=b4f478db-774d-45f5-ab89-1609b501b228; intercom-session-pkucd0o6=; session=2|1:0|10:1644429565|7:session|48:NDQ1NGNmODgtOGYzZS00MmYyLWFjN2QtOTU2MGM2MzIxMzc5|56ce36b3d312e352fed2f1a0c6795c7ff29f4a2d7de1573641f20064077cc486; _spirit=4908f58c-587e-4e39-9aa6-277c20674938; _uetsid=f3b32a5089d111ec89f783096188dc08; _uetvid=bee99200165111ec85a30743f7b3cc7f; __hssc=191357685.2.1644429542808";
+const cookie = "";
 const start_date = moment('07-12-2021', "DD-MM-YYYY");
 const end_date = moment();
 
